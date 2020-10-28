@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+/*Estilos para el header*/
+
+.header {
+    background-image: url('../img/banner-2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10% 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 60px;
+    color: black;
+    text-align: center;
+}
+
+
+/*Estilos Section-One y sus dos columnas*/
+
+.two-column h1 {
+    font-size: 6vw;
+}
+
+.two-column p {
+    font-size: 3vw;
+}
+
+.two-column {
+    padding: 20px;
+    float: left;
+    width: 50%;
+}
+
+.two-column img {
+    width: 100%;
+}
+
+
+/*Row After: Quitar estilos en la siguinte row*/
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*Estilos Section Two y sus cuatro columnas*/
+
+.section-two {
+    text-align: center;
+    padding: 0px, 50px, 0px, 50px;
+}
+
+#section-two-color {
+    background-color: #28ECA5;
+}
+
+.four-column {
+    padding: 10px;
+    float: left;
+    width: 25%;
+}
+
+.four-column img {
+    width: 100%;
+}
+
+.padding-0 {
+    padding: 0px;
+    margin-bottom: -5px;
+}
+
+
+/*Estilos Section Three y sus dos columnas*/
+
+.sec-three h1 {
+    font-size: 6vw;
+}
+
+.sec-three img {
+    width: 100%;
+    float: left;
+}
+
+
+/*Estilos Section Four y sus dos columnas*/
+
+.section-three {
+    padding: 50px;
+    float: right;
+    width: 50%;
+}
+
+#sec-four img {
+    width: 25%;
+}
+
+
+/*Estilo One-Column*/
+
+.one-column {
+    background-color: #46A6FC;
+    text-align: center;
+    padding: 50px;
+    color: black;
+}
+
+
+/*Estilos del FOOTER*/
+
+#footer-b {
+    background-color: black;
+}
+
+#footer-b p {
+    color: whitesmoke;
+}
+
+@media screen and (max-width:600px) {
+    .four-column {
+        width: 50%;
+    }
+}
