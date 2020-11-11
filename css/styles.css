@@ -8,6 +8,52 @@ body {
 }
 
 
+/*Row After: Quitar estilos en la siguinte row*/
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/**/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5 15% 5 15%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.4s;
+    font-size: 20px;
+}
+
+li {
+    float: left;
+    width: 25%;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+    color: white;
+}
+
+
 /*Estilos para el header*/
 
 .header {
@@ -43,15 +89,6 @@ body {
 
 .two-column img {
     width: 100%;
-}
-
-
-/*Row After: Quitar estilos en la siguinte row*/
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 
